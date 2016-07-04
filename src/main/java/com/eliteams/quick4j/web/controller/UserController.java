@@ -47,7 +47,7 @@ public class UserController {
             Subject subject = SecurityUtils.getSubject();
             // 已登陆则 跳到首页
             if (subject.isAuthenticated()) {
-                return "redirect:/";
+                return "redirect:/rest/index";
             }
             if (result.hasErrors()) {
                 model.addAttribute("error", "参数错误！");
