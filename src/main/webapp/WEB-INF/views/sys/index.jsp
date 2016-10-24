@@ -64,7 +64,6 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
                 <ul class="nav navbar-nav pull-right">
                     <li class="dropdown user">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                            <img alt="" src="assets/img/avatar1_small.jpg"/>
                             <span class="username"> ${userInfo.username } </span>
                             <i class="fa fa-angle-down"></i>
                         </a>
@@ -116,8 +115,8 @@ String basePath = request.getScheme() + "://" + request.getServerName() + ":" + 
 
                         <li class="">
                             <a href="javascript:;">
-                                <i class="fa fa-gears"></i><span class="title"> 系统管理 </span><span
-                                class="arrow "> </span>
+                                <i class="fa fa-gears"></i><span class="title"> 系统管理 </span>
+                                <span class="arrow "> </span>
                             </a>
                             <ul class="sub-menu">
                                 <li>

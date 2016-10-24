@@ -18,7 +18,7 @@ public class PageController {
      */
     @RequestMapping("/login")
     public String login() {
-        return "login";
+        return "sys/login";
     }
 
     /**
@@ -26,7 +26,7 @@ public class PageController {
      */
     @RequestMapping("/dashboard")
     public String dashboard() {
-        return "dashboard";
+        return "sys/dashboard";
     }
 
     /**

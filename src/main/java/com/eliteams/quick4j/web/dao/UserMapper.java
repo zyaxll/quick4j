@@ -1,11 +1,13 @@
 package com.eliteams.quick4j.web.dao;
 
-import java.util.List;
-import org.apache.ibatis.annotations.Param;
 import com.eliteams.quick4j.core.feature.orm.mybatis.Page;
 import com.eliteams.quick4j.core.generic.GenericDao;
 import com.eliteams.quick4j.web.model.User;
 import com.eliteams.quick4j.web.model.UserExample;
+
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 /**
  * 用户Dao接口

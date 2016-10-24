@@ -1,10 +1,12 @@
 package com.eliteams.quick4j.web.dao;
 
-import java.util.List;
-import org.apache.ibatis.annotations.Param;
 import com.eliteams.quick4j.core.generic.GenericDao;
 import com.eliteams.quick4j.web.model.Role;
 import com.eliteams.quick4j.web.model.RoleExample;
+
+import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 /**
  * 角色Dao 接口

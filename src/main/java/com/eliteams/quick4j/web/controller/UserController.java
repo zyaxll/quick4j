@@ -41,7 +41,7 @@ public class UserController {
      * @param result
      * @return
      */
-    @RequestMapping(value = "/login", method = RequestMethod.POST)
+    @RequestMapping(value = "/login")
     public String login(@Valid User user, BindingResult result, Model model, HttpServletRequest request) {
         try {
             Subject subject = SecurityUtils.getSubject();
@@ -78,7 +78,7 @@ public class UserController {
         // 登出操作
         Subject subject = SecurityUtils.getSubject();
         subject.logout();
-        return "login";
+        return "sys/login";
     }
 
     /**
