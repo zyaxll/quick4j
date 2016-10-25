@@ -1,4 +1,4 @@
-package com.eliteams.quick4j.web.dao;
+package com.eliteams.quick4j.web.dao.mapper;
 
 import com.eliteams.quick4j.core.feature.orm.mybatis.Page;
 import com.eliteams.quick4j.core.generic.GenericDao;

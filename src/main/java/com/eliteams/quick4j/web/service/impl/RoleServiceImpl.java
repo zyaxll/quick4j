@@ -6,7 +6,7 @@ import javax.annotation.Resource;
 import org.springframework.stereotype.Service;
 import com.eliteams.quick4j.core.generic.GenericDao;
 import com.eliteams.quick4j.core.generic.GenericServiceImpl;
-import com.eliteams.quick4j.web.dao.RoleMapper;
+import com.eliteams.quick4j.web.dao.mapper.RoleMapper;
 import com.eliteams.quick4j.web.model.Role;
 import com.eliteams.quick4j.web.service.RoleService;
 

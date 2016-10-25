@@ -6,7 +6,7 @@ import javax.annotation.Resource;
 import org.junit.Test;
 import com.eliteams.quick4j.core.feature.orm.mybatis.Page;
 import com.eliteams.quick4j.core.feature.test.TestSupport;
-import com.eliteams.quick4j.web.dao.UserMapper;
+import com.eliteams.quick4j.web.dao.mapper.UserMapper;
 import com.eliteams.quick4j.web.model.User;
 import com.eliteams.quick4j.web.model.UserExample;
 

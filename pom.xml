@@ -93,6 +93,7 @@
         <log4j.version>1.2.12</log4j.version>
         <httpclient.version>4.1.2</httpclient.version>
         <jackson.version>1.9.13</jackson.version>
+        <version.jackson>2.5.2</version.jackson>
         <c3p0.version>0.9.1.2</c3p0.version>
         <druid.version>1.0.5</druid.version>
         <tomcat.jdbc.version>7.0.53</tomcat.jdbc.version>
@@ -185,6 +186,22 @@
             <version>${mybatis.spring.version}</version>
         </dependency>
         <!--mybatis end-->
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <version>${version.jackson}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>${version.jackson}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <version>${version.jackson}</version>
+        </dependency>
 
         <!-- mysql-connector -->
         <dependency>

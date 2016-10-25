@@ -10,4 +10,6 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class BaseController {
     protected Logger logger = LoggerFactory.getLogger(BaseController.class);
+
+
 }

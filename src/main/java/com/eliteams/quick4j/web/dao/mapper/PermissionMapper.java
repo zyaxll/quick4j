@@ -1,4 +1,4 @@
-package com.eliteams.quick4j.web.dao;
+package com.eliteams.quick4j.web.dao.mapper;
 
 import com.eliteams.quick4j.core.generic.GenericDao;
 import com.eliteams.quick4j.web.model.Permission;
